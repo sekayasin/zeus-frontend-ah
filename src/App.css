@@ -1,0 +1,82 @@
+/* ------------------------------------------------------------------------
+   Global styles 
+
+   site-colors
+   white
+   blue - #008ed6 
+   background - #eaf5fb
+    
+----------------------------------------------------------------------------*/
+
+.App {
+  min-height: 100vh;
+  background: #eaf5fb;
+}
+
+#main-footer {
+  border-top: #008ed6 3px solid;
+  /* width: 100%; */
+}
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+}
+
+.zeus-color {
+  background-color: #008ed6;
+}
+
+/* ------------------------------------------------------
+ LANDING PAGE 
+---------------------------------------------------------*/
+
+#featured-tags,
+#articles,
+#featured-new-article {
+  padding-top: 40px;
+}
+
+#featured-tags ul li a {
+  text-decoration: none;
+}
+
+#featured-welcome {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://source.unsplash.com/5AYP1yeaE3I);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #fff;
+  height: 100vh;
+  /* max-width: 100%; */
+  /* height: auto; */
+}
+
+.marg-lg-zeus {
+  margin-top: 150px;
+}
+
+#featured-welcome .card-form {
+  opacity: 0.7;
+  margin-top: 200px;
+}
+
+/* ------------------------------------------------------
+ REGISTER, LOGIN, PASSWORD RESET PAGES 
+---------------------------------------------------------*/
+
+#register,
+#login,
+#passwordreset {
+  padding-top: 100px;
+}
+
+#passwordreset .invalid-feedback,
+#passwordreset .valid-feedback {
+  display: inline-block;
+}
+
+#featured-new-article .card-header {
+  background-color: #008ed6;
+}
